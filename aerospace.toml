@@ -240,3 +240,11 @@ automatically-unhide-macos-hidden-apps = false
     if.app-id = 'com.microsoft.teams2'
     run = "move-node-to-workspace T"
 
+[[on-window-detected]]
+    if.app-id = 'com.apple.Safari.WebApp.FE402878-C716-496D-B5A4-E69C5CCD35DB'
+    run = "move-node-to-workspace W"
+
+[[on-window-detected]]
+    if.app-id = 'com.microsoft.Word'
+    run = "move-node-to-workspace W"
+
